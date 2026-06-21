@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>JOB-NOW | פרסום משרה דחופה</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <ul class="navbar">
+        <li><img src="images/logo.jpg" alt="לוגו קטן" class="nav-logo"></li>
+        <li><a href="index.html">דף הבית</a></li>
+        <li><a href="#">ניהול משרות פעילות</a></li>
+        <li><a class="active" href="post-job.html">פרסום משרה חדשה</a></li>
+        
+        <li class="left-side">
+            <a href="#" class="login-btn nav-orange">
+                <i class="fa fa-sign-out" aria-hidden="true"></i> התנתק
+            </a>
+        </li>
+        <li class="left-side nav-greeting">
+            <i class="fa fa-briefcase"></i> שלום, דני (מעסיק)
+        </li>
+    </ul>
+
+    <div class="main-container">
+        <!-- נתיב חזרה -->
+        <div class="breadcrumb">
+            <a href="#" class="breadcrumb-link">
+                <i class="fa fa-arrow-right"></i> חזרה לאזור האישי
+            </a>
+        </div>
+        
+        <h1 id="main-title">פרסום משרה זמנית ב- JOB-NOW</h1>
+        <p class="guide-subtitle">מעסיק, זקוק לידיים עובדות באופן דחוף? מלא את פרטי המשמרת והמערכת שלנו תמצא לך עובד מתאים תוך דקות!</p>
+
+        <div class="section-box">
+            <form action="#" method="get" class="form-box">
+                
+                <div class="form-group">
+                    <label>כותרת המשרה (למשל: מלצר להערב):</label>
+                    <input type="text" name="job-title" class="text-field">
+                </div>
+
+                <div class="form-group">
+                    <label>מתי המשמרת? (תאריך ושעה):</label>
+                    <input type="text" name="shift-time" class="text-field">
+                </div>
+
+                <div class="form-group">
+                    <label>מיקום (עיר):</label>
+                    <select name="city" class="text-field">
+                        <option value="tel-aviv">תל אביב</option>
+                        <option value="haifa" selected="selected">חיפה</option>
+                        <option value="jerusalem">ירושלים</option>
+                        <option value="rishon">ראשון לציון</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>שכר שעתי מוצע (בש"ח):</label>
+                    <input type="text" name="salary" class="text-field">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" name="invoice-required" value="yes" checked>
+                    <label class="label-normal">התשלום כנגד חשבונית / קבלה בלבד (עוסק זעיר/פטור)</label>
+                </div>
+
+                <div class="form-group">
+                    <label>דרישת דירוג עובד (בכוכבים):</label><br><br>
+                    <input type="radio" name="rating" value="all" checked> <label class="label-normal">ללא הגבלה (כל עובד יכול להגיש מועמדות)</label><br><br>
+                    <input type="radio" name="rating" value="4stars"> <label class="label-normal">מינימום 4 כוכבים</label><br><br>
+                    <input type="radio" name="rating" value="5stars"> <label class="label-normal">עובדים מצטיינים בלבד (5 כוכבים)</label>
+                </div>
+
+                <div class="form-group">
+                    <label>תיאור התפקיד והדרישות:</label>
+                    <textarea name="description" rows="5" class="text-field"></textarea>
+                </div>
+
+                <div class="form-submit-center">
+                    <input type="submit" value="פרסם משרה עכשיו" class="submit-btn">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+    <a href="chat.html" class="chat-float" target="_blank">
+        <i class="fa fa-commenting" aria-hidden="true"></i> שירות לקוחות - צ'אט חי
+    </a>
+
+    <footer>
+        <p>© כל הזכויות שמורות ל-JOB-NOW | הדס בלין 324235225 | לידור טבול 208083469 | מיטב אילוז 324157817 | נחמה גדמו 211879572</p>
+    </footer>
+
+</body>
+</html>
