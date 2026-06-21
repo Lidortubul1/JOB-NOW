@@ -33,23 +33,14 @@
         </div>
 
         <div class="chat-messages">
-            <!-- הודעת מערכת עם כפתורי בחירה -->
             <div class="message received">
                 שלום! הגעת לשירות הלקוחות של JOB-NOW. 👋<br>
                 כדי שנוכל להפנות אותך לנציג המתאים ביותר, נשמח לדעת: האם את/ה פונה אלינו כמעסיק או כעובד?
                 
                 <div class="chat-choice-btns">
-                    <button class="tab-btn tab-btn-sm">מעסיק / מפרסם משרה</button>
-                    <button class="tab-btn tab-btn-sm active">עובד / מחפש עבודה</button>
+                    <button class="tab-btn tab-btn-sm" data-type="employer">מעסיק / מפרסם משרה</button>
+                    <button class="tab-btn tab-btn-sm" data-type="employee">עובד / מחפש עבודה</button>
                 </div>
-            </div>
-            
-            <div class="message sent">
-                אני מחפשת עבודה, רציתי לדעת איך פותחים עוסק זעיר דרך האתר.
-            </div>
-            
-            <div class="message received">
-                בשמחה! זה תהליך מאוד פשוט שלוקח כמה דקות. קודם כל עליך לפתוח תיק מועמד. האם כבר נרשמת למערכת?
             </div>
         </div>
 
@@ -61,7 +52,7 @@
 
     <footer>
         <p>© כל הזכויות שמורות ל-JOB-NOW | הדס בלין 324235225 | לידור טבול 208083469 | מיטב אילוז 324157817 | נחמה גדמו 211879572</p>
-    </footer>
-
+ </footer>
+    <script src="chat.js"></script>
 </body>
 </html>
